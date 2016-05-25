@@ -12,3 +12,6 @@ rdd2.map(t => t * 3)
 
 # alice add filter 
 rdd1.filter(t => t > 2)
+
+# add by yx
+# this is a test for multiple users in the same computer 
