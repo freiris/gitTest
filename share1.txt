@@ -1,1 +1,11 @@
+## <<<<<<< HEAD
+# alice added 1st message 
+#
+#<<<<<<< HEAD
+# alice modify without a pull, then commit with a conflict 
+#=======
+# bob added 2nd message
+#>>>>>>> 205270fbefe216d9a6889a5c7bc3aaa54b0bf90c
+## =======
 # doctor evil added a message
+## >>>>>>> master
