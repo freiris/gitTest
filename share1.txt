@@ -21,3 +21,4 @@ val z = List(2,4,6,8,2,6,10)
 val rdd3 = sc.parallelize(z)
 rdd3.map(t => (t, 1)).reduceByKey((a, b) => a + b)
 
+# add by alice in master
