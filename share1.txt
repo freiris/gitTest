@@ -1,1 +1,3 @@
 # alice added 1st message 
+#
+# alice modify without a pull, then commit with a conflict 
