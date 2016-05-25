@@ -9,3 +9,6 @@ rdd.map(x => x * x)
 val y = List(1,3,5,7)
 val rdd = sc.parallelize(y)
 rdd.map(t => t * 3)
+
+# add by yx
+# this is a test for multiple users in the same computer 
