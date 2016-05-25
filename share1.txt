@@ -15,3 +15,9 @@ rdd1.filter(t => t > 2)
 
 # add by yx
 # this is a test for multiple users in the same computer 
+
+# add by yx in yxbranch
+val z = List(2,4,6,8,2,6,10)
+val rdd3 = sc.parallelize(z)
+rdd3.map(t => (t, 1)).reduceByKey((a, b) => a + b)
+
