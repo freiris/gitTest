@@ -1,1 +1,6 @@
 this is the 1st shared file # add by bob
+
+# add by alice
+val x = List(1,2,3,4)
+val rdd = sc.parallelize(x)
+rdd.map(x => x * x)
