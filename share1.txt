@@ -2,10 +2,13 @@ this is the 1st shared file # add by bob
 
 # add by alice
 val x = List(1,2,3,4)
-val rdd = sc.parallelize(x)
-rdd.map(x => x * x)
+val rdd1 = sc.parallelize(x)
+rdd1.map(t => t * t)
 
 # add by bob
 val y = List(1,3,5,7)
-val rdd = sc.parallelize(y)
-rdd.map(t => t * 3)
+val rdd2 = sc.parallelize(y)
+rdd2.map(t => t * 3)
+
+# alice add filter 
+rdd1.filter(t => t > 2)
