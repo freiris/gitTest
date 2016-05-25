@@ -4,3 +4,8 @@ this is the 1st shared file # add by bob
 val x = List(1,2,3,4)
 val rdd = sc.parallelize(x)
 rdd.map(x => x * x)
+
+# add by bob
+val y = List(1,3,5,7)
+val rdd = sc.parallelize(y)
+rdd.map(t => t * 3)
